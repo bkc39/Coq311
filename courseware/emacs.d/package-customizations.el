@@ -44,6 +44,9 @@
              ;;                   nil)))))
 ))
 
+;; Set up ProofGeneral
+(load-file "ProofGeneral-4.2/generic/proof-site.el")
+
 ;; Sets the color theme and loads the 'zenburn' color theme.
 (require 'color-theme)
 (color-theme-initialize)
