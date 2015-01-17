@@ -1,0 +1,12 @@
+set background=dark
+set tabstop=2        "with of tab characters
+set shiftwidth=2     "width of auto-indent blocks
+set expandtab        "convert tabs to spaces
+set ai               "auto-indent
+set cc=80            "color columsn
+set list             "display whitespace using the presets below
+set listchars=tab:Â»
+set listchars=trail:.
+set nu               "display line numbers
+syntax on
+set ruler            "display file status
