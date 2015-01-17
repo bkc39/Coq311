@@ -84,7 +84,7 @@
 ;;
 
 (defvar pg-response-special-display-regexp nil
-  "Regexp for `special-display-regexps' for multiple frame use.
+  "Regexp for `display-buffer-alist' for multiple frame use.
 Internal variable, setting this will have no effect!")
 
 (defconst proof-multiframe-parameters
@@ -101,9 +101,9 @@ Internal variable, setting this will have no effect!")
 		 pg-response-special-display-regexp
 		 proof-multiframe-parameters)))
     (if proof-multiple-frames-enable
-	(add-to-list 'special-display-regexps spdres)
-      (setq special-display-regexps
-	    (delete spdres special-display-regexps))))
+	(add-to-list 'display-buffer-alist spdres)
+      (setq display-buffer-alist
+	    (delete spdres display-buffer-alist))))
   (proof-layout-windows))
 
 (defun proof-three-window-enable ()

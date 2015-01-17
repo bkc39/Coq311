@@ -162,7 +162,7 @@ response buffer."
   "*Whether response and goals buffers have separate frames.
 If non-nil, Emacs will make separate frames (screen windows) for
 the goals and response buffers, by altering the Emacs variable
-`special-display-regexps'."
+`display-buffer-alist'."
   :type 'boolean
   :set 'proof-set-value
   :group 'proof-user-options)

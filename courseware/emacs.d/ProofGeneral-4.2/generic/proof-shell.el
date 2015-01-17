@@ -248,7 +248,7 @@ If QUEUEMODE is supplied, set the lock to that value."
 	(setq proof-trace-buffer (get-buffer-create trace)))
     (if proof-shell-thms-output-regexp
 	(setq proof-thms-buffer (get-buffer-create thms)))
-    ;; Set the special-display-regexps now we have the buffer names
+    ;; Set the display-buffer-alist now we have the buffer names
     (setq pg-response-special-display-regexp
 	  (proof-regexp-alt goals resp trace thms))))
 
