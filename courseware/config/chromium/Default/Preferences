@@ -1,0 +1,380 @@
+{
+   "apps": {
+      "shortcuts_have_been_created": true
+   },
+   "browser": {
+      "clear_lso_data_enabled": false,
+      "last_known_google_url": "https://www.google.com/",
+      "last_prompted_google_url": "https://www.google.com/",
+      "pepper_flash_settings_enabled": false,
+      "window_placement": {
+         "bottom": 997,
+         "left": 0,
+         "maximized": true,
+         "right": 1050,
+         "top": 0,
+         "work_area_bottom": 1024,
+         "work_area_left": 0,
+         "work_area_right": 1440,
+         "work_area_top": 0
+      }
+   },
+   "cloud_print": {
+      "email": ""
+   },
+   "countryid_at_install": 21843,
+   "default_apps_install_state": 3,
+   "default_search_provider": {
+      "alternate_urls": [ "{google:baseURL}#q={searchTerms}", "{google:baseURL}search#q={searchTerms}", "{google:baseURL}webhp#q={searchTerms}" ],
+      "enabled": true,
+      "encodings": "UTF-8",
+      "icon_url": "http://www.google.com/favicon.ico",
+      "id": "2",
+      "image_url": "{google:baseURL}searchbyimage/upload",
+      "image_url_post_params": "encoded_image={google:imageThumbnail},image_url={google:imageURL},sbisrc={google:imageSearchSource},original_width={google:imageOriginalWidth},original_height={google:imageOriginalHeight}",
+      "instant_url": "{google:baseURL}webhp?sourceid=chrome-instant&{google:RLZ}{google:instantEnabledParameter}{google:instantExtendedEnabledParameter}{google:ntpIsThemedParameter}{google:omniboxStartMarginParameter}ie={inputEncoding}",
+      "instant_url_post_params": "",
+      "keyword": "google.com",
+      "name": "Google",
+      "new_tab_url": "{google:baseURL}_/chrome/newtab?{google:RLZ}{google:instantExtendedEnabledParameter}{google:ntpIsThemedParameter}ie={inputEncoding}",
+      "prepopulate_id": "1",
+      "search_terms_replacement_key": "espv",
+      "search_url": "{google:baseURL}search?q={searchTerms}&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:bookmarkBarPinned}{google:searchClient}{google:sourceId}{google:instantExtendedEnabledParameter}{google:omniboxStartMarginParameter}ie={inputEncoding}",
+      "search_url_post_params": "",
+      "suggest_url": "{google:baseSuggestURL}search?{google:searchFieldtrialParameter}client={google:suggestClient}&q={searchTerms}&{google:cursorPosition}{google:zeroPrefixUrl}{google:pageClassification}sugkey={google:suggestAPIKeyParameter}",
+      "suggest_url_post_params": ""
+   },
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "http://cms.csuglab.cornell.edu/", [ "http://cms.csuglab.cornell.edu/", 5.499195472370116 ] ], [ "http://github.com/", [ "https://github.com/", 2.2086570657060003 ] ], [ "http://lxde.org/", [ "http://i.creativecommons.org/", 1.45771366336596, "http://lxde.org/", 3.999368255901479, "http://start.lxde.org/", 1.45771366336596 ] ], [ "http://pclosmag.com/", [ "http://pclosmag.com/", 8.306060759919998 ] ], [ "http://piazza.com/", [ "https://piazza.com/", 2.2733802 ] ], [ "http://superuser.com/", [ "http://b.scorecardresearch.com/", 2.850489033518, "http://cdn.sstatic.net/", 5.096900920859999, "http://edge.quantserve.com/", 2.2086570657060003, "http://engine.adzerk.net/", 3.1714050174239996, "http://pixel.quantserve.com/", 2.2086570657060003, "http://static.adzerk.net/", 2.850489033518, "http://superuser.com/", 2.529573049612, "http://www.google-analytics.com/", 2.529573049612, "https://stackauth.com/", 2.2086570657060003, "https://www.gravatar.com/", 3.8132369852359993 ] ], [ "http://view.atdmt.com/", [ "http://c.betrad.com/", 3.8132369852359993, "http://cdn.atdmt.com/", 2.2086570657060003, "http://l.betrad.com/", 2.2086570657060003, "https://c.betrad.com/", 2.2086570657060003, "https://cdn.doubleverify.com/", 2.2086570657060003 ] ], [ "http://wiki.lxde.org/", [ "http://wiki.lxde.org/", 6.701480840389999 ] ], [ "http://www.cs.cornell.edu/", [ "http://www.cs.cornell.edu/", 4.585621599999999 ] ], [ "https://accounts.google.com/", [ "https://oauth.googleusercontent.com/", 2.1457765990453503, "https://ssl.gstatic.com/", 2.1457765990453503 ] ], [ "https://apis.google.com/", [ "https://apis.google.com/", 2.4575561048895462, "https://ssl.gstatic.com/", 2.1457765990453503 ] ], [ "https://github.com/", [ "https://collector-cdn.github.com/", 1.45771366336596, "https://collector.githubapp.com/", 1.6695182127439199, "https://github.com/", 2.9403455090116797, "https://github.global.ssl.fastly.net/", 2.9403455090116797, "https://ssl.google-analytics.com/", 1.8813227621218798 ] ], [ "https://piazza.com/", [ "https://piazza.com/", 10.861705399999996, "https://ssl.google-analytics.com/", 2.6037003999999997 ] ], [ "https://web4.login.cornell.edu/", [ "https://web4.login.cornell.edu/", 2.1457765990453503 ] ], [ "https://wiki.archlinux.org/", [ "https://wiki.archlinux.org/", 2.9403455090116797 ] ], [ "https://www.google.com/", [ "https://accounts.google.com/", 0.05098940270421457, "https://apis.google.com/", 0.0847698311416387, "https://developer.android.com/", 0.05098940270421457, "https://fonts.googleapis.com/", 0.05098940270421457, "https://ssl.google-analytics.com/", 0.05839811933645087, "https://ssl.gstatic.com/", 0.06254368124492982, "https://themes.googleusercontent.com/", 0.07321555260092345, "https://www.google.com/", 2.421135893917008, "https://www.gstatic.com/", 0.07952062289786363, "https://www.youtube.com/", 0.05098940270421457 ] ], [ "https://www.youtube.com/", [ "https://i1.ytimg.com/", 2.1457765990453503, "https://s.ytimg.com/", 4.016453634110526, "https://www.youtube.com/", 2.1457765990453503 ] ] ],
+      "startup_list": [ 1, "http://cms.csuglab.cornell.edu/", "http://piazza.com/", "http://www.cs.cornell.edu/", "https://piazza.com/", "https://ssl.google-analytics.com/", "https://www.google.com/" ]
+   },
+   "download": {
+      "directory_upgrade": true
+   },
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "autoupdate": {
+         "last_check": "13034730580202949",
+         "next_check": "13034748034505554"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "last_chrome_version": "31.0.1650.63",
+      "settings": {
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "active_permissions": {
+               "api": [ "management", "webstorePrivate" ]
+            },
+            "app_launcher_ordinal": "t",
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13034729984520837",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://chrome.google.com/webstore"
+                  },
+                  "urls": [ "https://chrome.google.com/webstore" ]
+               },
+               "description": "Chrome Web Store",
+               "icons": {
+                  "128": "webstore_icon_128.png",
+                  "16": "webstore_icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtl3tO0osjuzRsf6xtD2SKxPlTfuoy7AWoObysitBPvH5fE1NaAA1/2JkPWkVDhdLBWLaIBPYeXbzlHp3y4Vv/4XG+aN5qFE3z+1RU/NqkzVYHtIpVScf3DjTYtKVL66mzVGijSoAIwbFCC3LpGdaoe6Q1rSRDp76wR6jjFzsYwQIDAQAB",
+               "name": "Store",
+               "permissions": [ "webstorePrivate", "management" ],
+               "version": "0.2"
+            },
+            "page_ordinal": "n",
+            "path": "/usr/lib/chromium-browser/resources/web_store",
+            "was_installed_by_default": false
+         },
+         "eemcgdkfndhakfknompkggombfjjjeno": {
+            "active_permissions": {
+               "api": [ "bookmarks", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs" ],
+               "explicit_host": [ "chrome://favicon/*", "chrome://resources/*" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "initial_keybindings_set": true,
+            "install_time": "13034729984518187",
+            "location": 5,
+            "manifest": {
+               "chrome_url_overrides": {
+                  "bookmarks": "main.html"
+               },
+               "content_security_policy": "object-src 'none'; script-src chrome://resources 'self'",
+               "description": "Bookmark Manager",
+               "incognito": "split",
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQcByy+eN9jzazWF/DPn7NW47sW7lgmpk6eKc0BQM18q8hvEM3zNm2n7HkJv/R6fU+X5mtqkDuKvq5skF6qqUF4oEyaleWDFhd1xFwV7JV+/DU7bZ00w2+6gzqsabkerFpoP33ZRIw7OviJenP0c0uWqDWF8EGSyMhB3txqhOtiQIDAQAB",
+               "manifest_version": 2,
+               "name": "Bookmark Manager",
+               "permissions": [ "bookmarks", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs", "chrome://favicon/", "chrome://resources/" ],
+               "version": "0.1"
+            },
+            "path": "/usr/lib/chromium-browser/resources/bookmark_manager",
+            "was_installed_by_default": false
+         },
+         "mfehgcgbbipciphmccgaenjidiccnmng": {
+            "active_permissions": {
+               "api": [ "cloudPrintPrivate" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13034729984520518",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://www.google.com/cloudprint"
+                  },
+                  "urls": [ "https://www.google.com/cloudprint/enable_chrome_connector" ]
+               },
+               "description": "Cloud Print",
+               "display_in_launcher": false,
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqOhnwk4+HXVfGyaNsAQdU/js1Na56diW08oF1MhZiwzSnJsEaeuMN9od9q9N4ZdK3o1xXOSARrYdE+syV7Dl31nf6qz3A6K+D5NHe6sSB9yvYlIiN37jdWdrfxxE0pRYEVYZNTe3bzq3NkcYJlOdt1UPcpJB+isXpAGUKUvt7EQIDAQAB",
+               "name": "Cloud Print",
+               "permissions": [ "cloudPrintPrivate" ],
+               "version": "0.1"
+            },
+            "path": "/usr/lib/chromium-browser/resources/cloud_print",
+            "was_installed_by_default": false
+         },
+         "nmmhkkegccagdldgiimedpiccmgmieda": {
+            "ack_external": true,
+            "active_permissions": {
+               "api": [ "app.currentWindowInternal", "app.runtime", "app.window", "identity", "webRequestInternal", "webview" ],
+               "explicit_host": [ "https://checkout.google.com/*", "https://sandbox.google.com/*", "https://www.google.com/*", "https://www.googleapis.com/*" ]
+            },
+            "creation_flags": 9,
+            "events": [ "app.runtime.onLaunched" ],
+            "from_bookmark": false,
+            "from_webstore": true,
+            "initial_keybindings_set": true,
+            "install_time": "13034729985817452",
+            "lastpingday": "13034678397994483",
+            "location": 7,
+            "manifest": {
+               "app": {
+                  "background": {
+                     "scripts": [ "craw_background.js" ]
+                  }
+               },
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "Google Wallet for digital goods",
+               "display_in_launcher": false,
+               "display_in_new_tab_page": false,
+               "icons": {
+                  "128": "images/icon_128.png",
+                  "16": "images/icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrKfMnLqViEyokd1wk57FxJtW2XXpGXzIHBzv9vQI/01UsuP0IV5/lj0wx7zJ/xcibUgDeIxobvv9XD+zO1MdjMWuqJFcKuSS4Suqkje6u+pMrTSGOSHq1bmBVh0kpToN8YoJs/P/yrRd7FEtAXTaFTGxQL4C385MeXSjaQfiRiQIDAQAB",
+               "manifest_version": 2,
+               "minimum_chrome_version": "29",
+               "name": "Google Wallet",
+               "oauth2": {
+                  "auto_approve": true,
+                  "client_id": "203784468217.apps.googleusercontent.com",
+                  "scopes": [ "https://www.googleapis.com/auth/sierra", "https://www.googleapis.com/auth/sierrasandbox", "https://www.googleapis.com/auth/chromewebstore", "https://www.googleapis.com/auth/chromewebstore.readonly" ]
+               },
+               "permissions": [ "identity", "webview", "https://checkout.google.com/", "https://sandbox.google.com/checkout/", "https://www.google.com/", "https://www.googleapis.com/*" ],
+               "update_url": "https://clients2.google.com/service/update2/crx",
+               "version": "0.0.6.0"
+            },
+            "path": "nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.0_0",
+            "running": false,
+            "state": 1,
+            "was_installed_by_default": false
+         }
+      },
+      "theme": {
+         "use_system": false
+      }
+   },
+   "google": {
+      "services": {
+         "signin": {
+            "LSID": "",
+            "SID": ""
+         }
+      }
+   },
+   "intl": {
+      "accept_languages": "en-US,en"
+   },
+   "invalidator": {
+      "client_id": "w4oodtf91wMWHCh9RXIZMQ=="
+   },
+   "net": {
+      "http_server_properties": {
+         "servers": {
+            "ajax.googleapis.com:80": {
+               "alternate_protocol": {
+                  "port": 80,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "apis.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 40,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "cache.pack.google.com:80": {
+               "alternate_protocol": {
+                  "port": 80,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "clients1.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "clients2.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "p5-la2kj7s3ibnf4-x7kxgh662qghdhv5-678845-i1-v6exp3-v4.metric.gstatic.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "p5-la2kj7s3ibnf4-x7kxgh662qghdhv5-678845-i2-v6exp3-ds.metric.gstatic.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "r5---sn-a8au-cvne.c.pack.google.com:80": {
+               "alternate_protocol": {
+                  "port": 80,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "ssl.google-analytics.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "ssl.gstatic.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 44,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "www.google-analytics.com:80": {
+               "alternate_protocol": {
+                  "port": 80,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "www.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 100,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "www.gstatic.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 38,
+                  "6": 0
+               },
+               "supports_spdy": true
+            }
+         },
+         "version": 2
+      }
+   },
+   "ntp": {
+      "app_page_names": [ "Apps" ]
+   },
+   "plugins": {
+      "removed_old_component_pepper_flash_settings": true
+   },
+   "profile": {
+      "avatar_index": 0,
+      "content_settings": {
+         "clear_on_exit_migrated": true,
+         "pref_version": 1
+      },
+      "created_by_version": "31.0.1650.63",
+      "exit_type": "Normal",
+      "exited_cleanly": true,
+      "local_profile_id": 8056428,
+      "managed_user_id": "",
+      "name": "First user"
+   },
+   "session": {
+      "restore_on_startup": 4,
+      "restore_on_startup_migrated": true,
+      "urls_to_restore_on_startup": [ "http://www.cs.cornell.edu/courses/cs3110", "http://piazza.com/", "http://cms.csuglab.cornell.edu/" ]
+   },
+   "translate_blocked_languages": [ "en" ]
+}
