@@ -45,10 +45,8 @@
 ))
 
 ;; Set up ProofGeneral
-(load-file "ProofGeneral-4.2/generic/proof-site.el")
+(load-file "~/.emacs.d/ProofGeneral-4.2/generic/proof-site.el")
 
-;; Sets the color theme and loads the 'zenburn' color theme.
+;; Sets up color theme, but does not change the default colors.
 (require 'color-theme)
 (color-theme-initialize)
-(load 'zenburn-theme t)
-(color-theme-zenburn)
