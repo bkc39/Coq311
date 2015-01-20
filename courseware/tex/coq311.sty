@@ -1,0 +1,112 @@
+%% Style file for Coq311.
+
+\ProvidesPackage{3110}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Package Imports %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage[hidelinks]{hyperref}
+\RequirePackage{listings}
+\RequirePackage{amsfonts}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{amsthm}
+\RequirePackage{algorithm}
+\RequirePacakge{algorithmicx}
+\RequirePackage{algpseudocode}
+\RequirePackage{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% For Typesetting Coq %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+
+%% A minimal definition of the Coq language
+\lstdefinelanguage{Coq}{
+  %% Gallina Keywords
+  keywords = {
+    _,
+    as,
+    at,
+    cofix,
+    else,
+    end,
+    exists,
+    exists2,
+    fix,
+    for,
+    forall,
+    fun,
+    if,
+    IF,
+    in,
+    let,
+    match,
+    mod,
+    Prop,
+    return,
+    Set,
+    then,
+    Type,
+    using,
+    where,
+    with
+  }
+  sensitive    = true,
+  keywordstyle = \color{black}\bfseries,
+  %% Keywords for the Vernacular
+  ndkeywords   = {
+    Axiom,
+    Conjecture,
+    Parameter,
+    Parameters,
+    Variable,
+    Variables,
+    Hypothesis,
+    Hypotheses,
+    Definition,
+    Let,
+    Inductive,
+    CoInductive,
+    Fixpoint,
+    CoFixpoint,
+    Theorem,
+    Lemma,
+    Remark,
+    Fact,
+    Corollary,
+    Proposition,
+    Example,
+    Proof,
+    Qed,
+    Admitted
+  }
+  ndkeywordstyle  = \color{black}{\bfseries},
+  identifierstyle = \color{black},
+  morecomment     = [s]{(*}{*)},
+  commentstyle    = \color{lightgray}\ttfamily,
+  stringstyle     = \color{darkgray}\ttfamily,
+  morestring      = [b]',
+  morestring      = [b]"
+}
+
+\lstset{
+  language      = Coq,
+  extendedchars = true,
+  basicstyle    = \footnotesize\ttfamily,
+  showstringspaces = false,
+  showspaces = false,
+  numbers = left,
+  numberstyle = \footnotesize\ttfamily,
+  numbersep = 8pt,
+  tabsize = 2,
+  breaklines = true,
+  showtabs = false,
+  captionpos = b,
+  escapeinside = {\%*}{*)},
+  frame = single,
+}
+
+\let\code\lstinline
+\lstnewenvironment{coq}{}{}
+
+
