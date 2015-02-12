@@ -1,0 +1,29 @@
+\documentclass{article}
+
+\input{def}
+
+\begin{document}
+\maketitle
+
+Computer programming is more than the act of giving instructions to a computer.
+Computer programming is the art of expressing complex ideas unambiguously and clearly.
+All code you write should be written first for human readers; the fact that a computer will later interpret the bits is a secondary concern.
+
+\subsection*{An Example}
+Suppose you are writing a computer program and want to know the value of 4!.
+One possible answer is the integer 24.
+You can use the literally type the constant \texttt{24} and use it forever more as the value of 4!.
+
+Another correct answer is \texttt{n * 4}.
+This is supposing you have a variable \texttt{n} saved in your current programming environment that has the value 3! stored to it.
+
+The answer we prefer is \texttt{factorial(4)}, where \texttt{factorial : nat -> nat} is a stateless (read: functional) subroutine specifying how to compute the factorial of any number.
+Like the previous answer, this assumes we have a special variable in our environment (\texttt{factorial} in this case, \texttt{n} previously).
+However, the factorial function is worth finding or implementing because we can re-use it.
+
+\subsection*{Variables}
+A variable is not a pointer to a register whose value changes over time.
+A variable is an unknown quantity.
+To quote Professor Robert Harper, ``you had it right the first time'' when you learned variables in algebra.
+
+\end{document}
