@@ -1,0 +1,68 @@
+\documentclass{article}
+
+\input{def}
+
+\begin{document}
+\maketitle
+
+\begin{quote}
+  ``A computer is simply an instrument whose music is ideas'' -Alan Kay, 2003%\footnote{\url{http://www.scholastic.com/browse/article.jsp?id=5}}
+\end{quote}
+
+The goal of this course is the explain and support this quotation.
+We will teach fundamental design and programming skills using the Coq proof assistant.
+
+\subsection*{Target Audience}
+This course is intended for students with little or no programming experience.
+A background in functional programming will subsume most material in the first third of the course.
+Experience with an imperative language like Java, C, and Python is good, but we recommend looking over the course prologue~\cite{TODO} to un-learn a few things before starting the first lecture.
+
+\subsection*{Topics Covered}
+TBA
+
+\subsection*{Topics not Covered}
+Subject to change, but probably including:
+
+\begin{center}
+  \begin{tabular}{c c c c}
+    Amortized Analysis & Complexity & Concurrency & Coinduction
+  \\Data-Oriented Programming & & &
+  \end{tabular}
+\end{center}
+
+\subsection*{Structure}
+Our general problem-solving strategy will be:
+\begin{enumerate}
+\item Think about the essence of the problem, choose a datatype to model it.
+\item Convince ourselves that we can solve the problem with psuedocode and an informal correctness proof.
+\item Create a program realizing our ideas.
+\item Create a formal proof of our program's correctness.
+\end{enumerate}
+
+Steps 1 and 2 are by far the most important and broadly applicable; however ideas are worth little until they can be implemented.
+The order of steps 3 and 4 is guided by our choice of language.
+There is a strong connection between formally proving a theorem and programming an algorithm, and these activities are best done simultaneously, but the ``prove, then program'' order seems to work best in Coq.
+
+\subsection*{About Coq}
+We will use the Coq programming language / proof assistant because it offers an expressive language for specifying problems and reasoning about correctness.
+We can uniformly express a data model, algorithm, and proof of correctness in Coq.
+
+\begin{center}
+\begin{verbatim}
+  Inductive data := ...
+\end{verbatim}
+\begin{verbatim}
+  Fixpoint program : data -> data := ...
+\end{verbatim}
+\begin{verbatim}
+  Theorem about_the_program : forall A, exists B ... 
+  Proof. ...
+\end{verbatim}
+\end{center}
+
+Furthermore, Coq interactively evaluates our definitions for basic syntactical and logical errors.
+That said, Coq has problems.
+Most of the above-listed ``topics not covered'' are omitted because Coq is not mature enough to handle them.
+Despite its shortcomings and learning curve, we think Coq is a great tool for learning and well worth knowing.
+
+\end{document}
