@@ -22,7 +22,10 @@
     \begin{center}
       \vfill
       
-      \textsc{\LARGE Functional Programming and \\ Data Structures}\\[1.5cm]
+      \textsc{
+        \LARGE Functional Programming and \\
+        \vspace{.3em}
+        Data Structures}\\[1.5cm]
 
       \includegraphics[width=0.15\textwidth]{\show@psetimage}~\\[1cm]      
 

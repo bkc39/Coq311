@@ -19,7 +19,10 @@
 
       \includegraphics[width=0.15\textwidth]{\show@noteimage}~\\[1cm]
 
-      \textsc{\LARGE Functional Programming and \\ Data Structures}\\[1.5cm]
+      \textsc{
+        \LARGE Functional Programming and \\
+        \vspace{.3em}
+        Data Structures}\\[1.5cm]
 
       % Title
       \hrule \vspace{0.3cm}
