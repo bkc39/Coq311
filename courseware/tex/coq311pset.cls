@@ -1,7 +1,7 @@
 %% Class file for Coq311 lecture notes. 
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{coq311notes}
+\ProvidesClass{coq311pset}
 \LoadClass[12pt]{article}
 
 %% Sets the title of the notes
