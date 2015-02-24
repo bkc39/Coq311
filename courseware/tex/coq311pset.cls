@@ -1,7 +1,7 @@
 %% Class file for Coq311 lecture notes. 
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{coq311notes}
+\ProvidesClass{coq311pset}
 \LoadClass[12pt]{article}
 
 %% Sets the title of the notes
@@ -22,7 +22,7 @@
     \begin{center}
       \vfill
       
-      \textsc{\LARGE Functional Programming and Data Structures}\\[1.5cm]
+      \textsc{\LARGE Functional Programming and \\ Data Structures}\\[1.5cm]
 
       \includegraphics[width=0.15\textwidth]{\show@psetimage}~\\[1cm]      
 
