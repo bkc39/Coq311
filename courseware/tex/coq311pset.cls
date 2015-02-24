@@ -9,12 +9,12 @@
 \newcommand{\show@psettitle}{\@psettitle}
 
 %% Sets the picture to be shown on the title page
-\newcommand{\setnoteimage}[1]{\def\@noteimage{#1}}
-\newcommand{\show@noteimage}{\@noteimage}
+\newcommand{\setpsetimage}[1]{\def\@psetimage{#1}}
+\newcommand{\show@psetimage}{\@psetimage}
 
 %% Sets the problem set number
-\newcommand{\setnoteimage}[1]{\def\@noteimage{#1}}
-\newcommand{\show@noteimage}{\@noteimage}
+\newcommand{\setpsetnumber}[1]{\def\@psetnumber{#1}}
+\newcommand{\show@psetnumber}{\@psetnumber}
 
 %% standardizes the title page
 \renewcommand\maketitle{
