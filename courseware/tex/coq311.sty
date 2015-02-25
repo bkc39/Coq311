@@ -4,8 +4,6 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Package Imports %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage[colorlinks]{hyperref}
-\RequirePackage{listings}
 \RequirePackage{amsfonts}
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
@@ -14,7 +12,11 @@
 \RequirePackage{algorithmicx}
 \RequirePackage{algpseudocode}
 \RequirePackage{enumerate}
+\RequirePackage{fourier-orns}
 \RequirePackage{graphicx}
+\RequirePackage[colorlinks]{hyperref}
+\RequirePackage{listings}
+\RequirePackage{palatino}
 \RequirePackage{xcolor}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% For Typesetting Coq %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -114,3 +116,6 @@
 \lstnewenvironment{coq}{}{}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Generic Macros  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\coffeebreak}[1]{\vspace{0.1cm}\begin{center}\decoone~~~~#1~~~~\decoone\end{center}\vspace{0.1cm}}
