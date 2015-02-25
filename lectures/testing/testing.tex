@@ -1,0 +1,84 @@
+\documentclass{article}
+
+\input{def}
+
+\begin{document}
+\maketitle
+So far we have written a few small programs.
+How do we know these programs are correct?
+Our arguments have been extremely casual.
+
+In these notes we introduce unit testing, explain the syntax we will use in this course, and explore commonly-used unit testing strategies.
+
+\subsection*{Informal Correctness}
+Last time, we introduced a type for natural numbers and defined a few functions on them.
+Two of the functions we wrote were successor and \texttt{plus}: the first added 1 to a number and the second took the sum of two numbers.
+\begin{verbatim}
+Definition add1 (n : nat) : nat := S n.
+\end{verbatim}
+\begin{verbatim}
+Fixpoint plus (n1 : nat) (n2 : nat) : nat :=
+  match n1 with
+  | O   => n2
+  | S n => add1 (plus n n2)
+  end.
+\end{verbatim}
+The function \texttt{add1} is pretty obviously correct.
+We defined natural numbers as either zero or the successor of another number, so it makes sense that we can add 1 by taking the successor.
+Determining that \texttt{plus} is correct is slightly more difficult, but inspecting the code shows that we are just counting; we repeatedly add 1 to the number \texttt{n2}.
+
+This informal approach of inspecting code does not scale well.
+Here is a function BLAH.
+Can you figure out what it does?
+If you like, try running the code.
+\begin{verbatim}
+(* insert complex function here *)
+\end{verbatim}
+
+\coffeebreak{How did you go about understanding BLAH? In general, what are good strategies for learning about a new piece of code?}
+
+Observations/assertions
+\begin{itemize}
+\item
+  ``Obviously correct'' falls apart very quickly.
+\item
+  Learning by example is often very effective.
+\end{itemize}
+
+\subsection*{Unit Testing}
+A unit test is XXX.
+
+We write unit tests in Coq311 by XXX.
+
+\coffeebreak{Think of some tests for \texttt{plus}. Are you certain that it works correctly for any two natural numbers?}
+
+\subsection*{Beyond Testing}
+Proving!
+(Just a taste for now)
+
+\subsection*{Lit. Review}
+Unit testing is everywhere.
+(Insert quote by Tony Hoare.)
+
+\subsubsection*{Testing Strategies}
+\begin{itemize}
+\item Exhaustive
+\item Path-Complete
+\item Edge Testing
+\item Randomized
+\item Black Box
+\item Glass Box
+\end{itemize}
+
+\subsubsection*{Testing Frameworks}
+There are many famous tools for helping programmers create, write, and run unit tests.
+\begin{itemize}
+\item JUnit
+\item QuickCheck
+\item Fuzz-Testing tools, something in PLT
+\end{itemize}
+
+\subsubsection*{Other Stuff}
+Books on testing, wild stuff like POPL'14 test-driven-synthesis.
+
+\end{document}
