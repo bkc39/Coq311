@@ -38,3 +38,6 @@
     \end{center}
   \end{titlepage}
 }
+
+%% Header, in place of a full title page.
+\newcommand{\lecture}[1]{{\flushleft  \textsc{#1}\\\vspace{0.1cm}\hrule\vspace{0.2cm}}}
